@@ -12,10 +12,10 @@
     </parent>
 
     <groupId>org.example</groupId>
-    <artifactId>ZenDo</artifactId>
+    <artifactId>cyberzen</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Zendo</name>
-    <description>Mindful planning system</description>
+    <name>cyberzen</name>
+    <description>Your mind's operating system in a cyberpunk reality</description>
 
     <properties>
         <java.version>25</java.version>

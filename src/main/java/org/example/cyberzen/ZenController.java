@@ -1,4 +1,4 @@
-package org.example.zendo;
+package org.example.cyberzen;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,6 +10,6 @@ public class ZenController {
     @GetMapping("/")
     @ResponseBody
     public String home() {
-        return "Zendo";
+        return "CyberZen";
     }
 }

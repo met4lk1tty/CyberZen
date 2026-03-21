@@ -1,11 +1,11 @@
-package org.example.zendo;
+package org.example.cyberzen;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ZendoApplication {
+public class CyberZenApplication {
     static void main(String[] args) {
-        SpringApplication.run(ZendoApplication.class, args);
+        SpringApplication.run(CyberZenApplication.class, args);
     }
 }

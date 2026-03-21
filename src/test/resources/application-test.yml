@@ -6,13 +6,13 @@ server:
 
 spring:
   application:
-    name: Zendo
+    name: cyberzen
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/zendo_db
-    username: zendo
-    password: zendo
+    url: jdbc:postgresql://localhost:5432/cyberzen_db
+    username: cyberzen
+    password: cyberzen
 
   jpa:
     hibernate:

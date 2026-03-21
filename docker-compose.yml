@@ -1,17 +1,17 @@
 services:
   postgres:
-    container_name: zendo-database
+    container_name: cyberzen-database
     image: postgres:16.0
     environment:
-      POSTGRES_USER: zendo
-      POSTGRES_PASSWORD: zendo
-      POSTGRES_DB: zendo_db
+      POSTGRES_USER: cyberzen
+      POSTGRES_PASSWORD: cyberzen
+      POSTGRES_DB: cyberzen_db
     ports:
       - "5432:5432"
     volumes:
       - postgres-data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U zendo"]
+      test: ["CMD-SHELL", "pg_isready -U cyberzen"]
       interval: 10s
       timeout: 5s
       retries: 5
